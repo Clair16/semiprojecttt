@@ -1,0 +1,666 @@
+.card-1-child,
+.food-1-child {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.food-1-child {
+  align-self: stretch;
+  height: 537px;
+  border-radius: var(--br-5xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.card-1-child {
+  width: 352px;
+  height: 152.8px;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--white);
+}
+.food-donate,
+.rome-italty {
+  position: relative;
+  line-height: 124.5%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.rome-italty {
+  width: 120.6px;
+}
+.food-donate {
+  min-width: 107.2px;
+}
+.food-card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.image-39-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.card-1,
+.food-card-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.food-card-details {
+  flex-direction: row;
+  gap: 0.6px;
+  font-size: var(--font-size-base);
+}
+.card-1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-12xl-8) var(--padding-3xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-mid-1);
+  max-width: 100%;
+  z-index: 1;
+}
+.cta-item {
+  height: 60px;
+  width: 170px;
+  position: relative;
+  box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumturquoise);
+  display: none;
+}
+.donate {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--white);
+  text-align: center;
+  z-index: 1;
+}
+.cta2,
+.food-card-action {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.cta2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-12xl) var(--padding-base);
+  background-color: var(--color-mediumturquoise);
+  flex: 1;
+  box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+  z-index: 2;
+}
+.cta2:hover {
+  background-color: #409699;
+}
+.food-card-action {
+  width: 182px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  margin-top: -120px;
+}
+.food-1,
+.food-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.food-1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-365xl-2) 0 var(--padding-41xl);
+  background-image: url(./public/food-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.food-1-wrapper {
+  height: 767px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 230px 0 0;
+  min-width: 352px;
+}
+.childcare-card-top {
+  color: var(--st);
+}
+.childcare-card-top,
+.childcare-card-top1 {
+  position: relative;
+  display: inline-block;
+  min-width: 14px;
+}
+.childcare-card-spacing {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--rd);
+  font-family: var(--font-roboto);
+}
+.subheading {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+}
+.childcare-card-subheading,
+.childcare-card-subheading-spac {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.childcare-card-subheading {
+  width: 111px;
+  flex-direction: column;
+  padding: 7px 0 0;
+  box-sizing: border-box;
+}
+.childcare-card-subheading-spac {
+  margin: 0;
+  flex-direction: row;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--rd);
+  font-family: var(--font-roboto);
+}
+.childcare-card-heading {
+  position: absolute;
+  top: 0;
+  left: 224.4px;
+  width: 725.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.childcare-card-heading3 {
+  position: relative;
+  color: var(--nd);
+  display: inline-block;
+  min-width: 14px;
+}
+.childcare-card-heading-spacing {
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  left: 797px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--rd);
+  font-family: var(--font-roboto);
+}
+.heading1 {
+  margin: 0;
+  width: 585px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.childcare-card-title-bottom-sp {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--rd);
+  font-family: var(--font-roboto);
+}
+.childcare-card-title-spacing {
+  margin: 0;
+  width: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+}
+.childcare-card-title {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-27xl);
+  color: var(--rd1);
+}
+.childcare-card-header {
+  align-self: stretch;
+  height: 125px;
+  position: relative;
+  max-width: 100%;
+}
+.childcare-card-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.childcare-card-content-spacing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  margin: -20px 0 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--rd);
+  font-family: var(--font-roboto);
+}
+.childcare-card {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-clr);
+  font-family: var(--font-poppins);
+}
+.card-2-child {
+  width: 349.6px;
+  height: 152.8px;
+  position: relative;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.london-uk {
+  width: 112px;
+  position: relative;
+  line-height: 124.5%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.child-care,
+.navigation-1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.navigation-1 {
+  width: 22.2px;
+  height: 23.5px;
+  overflow: hidden;
+  display: none;
+}
+.child-care {
+  width: 105.3px;
+  line-height: 124.5%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.childcare-card-image-action-ty {
+  width: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.image-40-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.card-2,
+.childcare-card-image-action {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.childcare-card-image-action {
+  flex-direction: row;
+  font-size: var(--font-size-base);
+}
+.card-2 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--white);
+  flex-direction: column;
+  padding: var(--padding-12xl-8) var(--padding-3xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: 18.1px;
+  max-width: 100%;
+  z-index: 1;
+}
+.cta-inner,
+.cta3 {
+  background-color: var(--color-orange);
+  box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: var(--br-3xs);
+}
+.cta-inner {
+  height: 60px;
+  width: 170px;
+  position: relative;
+  display: none;
+}
+.cta3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-12xl) var(--padding-base);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.cta3:hover {
+  background-color: #bd7300;
+}
+.childcare,
+.childcare-card-action-button {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.childcare-card-action-button {
+  width: 178.6px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs);
+  margin-top: -120px;
+}
+.childcare {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-365xl-2) 0 var(--padding-41xl);
+  background-image: url(./public/rectangle-141@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.europe,
+.food-donate1 {
+  width: 109.8px;
+  position: relative;
+  line-height: 124.5%;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.food-donate1 {
+  width: 139px;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.card-3,
+.food-donate-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.food-donate-wrapper {
+  width: 112px;
+  padding: var(--padding-4xs) 0 0;
+}
+.card-3 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 var(--br-5xl) var(--br-5xl);
+  background-color: var(--white);
+  padding: 32.9px var(--padding-3xl) var(--padding-14xl);
+  gap: var(--gap-mid);
+  max-width: 100%;
+  z-index: 1;
+}
+.button-item {
+  height: 60px;
+  width: 170px;
+  position: relative;
+  box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-salmon);
+  display: none;
+}
+.button1,
+.food-2 {
+  display: flex;
+  box-sizing: border-box;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-12xl) var(--padding-base);
+  background-color: var(--color-salmon);
+  width: 170px;
+  box-shadow: 0 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+  margin-top: -119px;
+}
+.button1:hover {
+  background-color: #c74f38;
+}
+.food-2 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-365xl-2) 0 var(--padding-40xl);
+  background-image: url(./public/rectangle-142@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.childcare-card-image,
+.childcare-card-summary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.childcare-card-summary {
+  align-self: stretch;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 53px;
+}
+.childcare-card-image {
+  width: 913px;
+  height: 537px;
+  justify-content: flex-end;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.childcare-card-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 64px;
+  min-width: 617px;
+  max-width: 100%;
+  margin-left: -67px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-clr);
+  font-family: var(--font-poppins);
+}
+.ngo-listing-child {
+  height: 657.2px;
+  width: 432.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 398.45px;
+  left: -45.32px;
+  border-radius: var(--br-141xl);
+  background: linear-gradient(
+    180deg,
+    #ff0090 19.73%,
+    rgba(9, 151, 217, 0.97) 89.48%
+  );
+  transform: rotate(-130.5deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+.ngo-listing {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px var(--padding-43xl) 207px 143px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-clr);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1125px) {
+  .food-1-wrapper {
+    flex: 1;
+  }
+  .ngo-listing {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .food-1-wrapper {
+    padding-top: 149px;
+    box-sizing: border-box;
+  }
+  .childcare-card-spacing {
+    display: none;
+  }
+  .childcare-card-summary {
+    flex-wrap: wrap;
+  }
+  .childcare-card-image {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .childcare-card-parent {
+    gap: 32px;
+    min-width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .food-1 {
+    padding-top: 250px;
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .food-1-wrapper {
+    min-width: 100%;
+  }
+  .childcare-card-content-spacing {
+    display: none;
+  }
+  .childcare,
+  .food-2 {
+    padding-top: var(--padding-68xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .food-2 {
+    padding-bottom: var(--padding-19xl);
+  }
+  .childcare-card-summary {
+    gap: 26px;
+  }
+  .childcare-card-parent {
+    gap: var(--gap-base);
+  }
+  .ngo-listing {
+    padding-left: 71px;
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .food-1-wrapper {
+    padding-top: 97px;
+    box-sizing: border-box;
+  }
+  .ngo-listing {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

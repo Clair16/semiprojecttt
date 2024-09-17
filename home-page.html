@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="image-30"></div>
+      <header class="frame-parent">
+        <div class="logo-wrapper">
+          <a class="logo">LOGO</a>
+        </div>
+        <div class="nav-item-wrapper">
+          <a class="nav-item">Home</a>
+        </div>
+        <div class="frame-wrapper">
+          <button class="nav-item-parent">
+            <a class="nav-item1">NGOs</a>
+            <img
+              class="sub-nav-item-icon"
+              alt=""
+              src="./public/sub-nav-item-icon.svg"
+            />
+          </button>
+        </div>
+        <div class="top-navigation">
+          <div class="navigation-links">
+            <a class="nav-item">Events</a>
+            <div class="dropdown-nav">
+              <a class="nav-item3">About Us</a>
+              <div class="nested-dropdown">
+                <div class="shape-dropdown">
+                  <div class="shape"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item-container">
+          <a class="nav-item4">Login</a>
+        </div>
+        <div class="button-wrapper">
+          <button class="button" id="button">
+            <div class="button-child"></div>
+            <a class="sign-up">Sign up</a>
+          </button>
+        </div>
+        <div class="frame-container">
+          <button class="nav-item-parent">
+            <a class="en">EN</a>
+            <img class="frame-child" alt="" src="./public/vector-1-1.svg" />
+          </button>
+        </div>
+      </header>
+      <div class="decore-parent">
+        <img class="decore-icon" alt="" src="./public/decore.svg" />
+
+        <img class="illustration-icon" alt="" src="./public/illustration.svg" />
+      </div>
+      <div class="tagline-parent">
+        <b class="tagline">Top Ngo listing </b>
+        <div class="content-blocks">
+          <div class="main-block">
+            <div class="main-content">
+              <h1 class="heading">
+                <p class="welcome-to">Welcome to</p>
+                <p class="welcome-to">the NGO Hub</p>
+              </h1>
+              <div class="desc">
+                Our work aims to break the vicious cycle of poverty and social
+                isolation and to restore hope for a better future.
+              </div>
+            </div>
+            <button class="cta" id="cTA">
+              <div class="cta1">
+                <div class="cta-child"></div>
+                <b class="discover-more">Discover more</b>
+              </div>
+            </button>
+          </div>
+          <div class="feature-grid-wrapper">
+            <div class="feature-grid">
+              <div class="grid-divider">
+                <div class="divider-placeholder">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+              </div>
+              <div class="grid-divider">
+                <div class="feature-placeholder">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+              </div>
+              <div class="grid-divider">
+                <div class="feature-placeholder">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="feature-placeholder2">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+              </div>
+              <div class="grid-divider">
+                <div class="feature-placeholder">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+              </div>
+              <div class="grid-divider">
+                <div class="feature-placeholder">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+                <div class="divider-placeholder1">+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./sign-up.html";
+        });
+      }
+      
+      var cTA = document.getElementById("cTA");
+      if (cTA) {
+        cTA.addEventListener("click", function (e) {
+          window.location.href = "./sevices.html";
+        });
+      }
+      </script>
+  </body>
+</html>

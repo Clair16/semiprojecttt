@@ -1,0 +1,484 @@
+.shape1 {
+  height: 383px;
+  width: 601.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: -107.6px;
+  bottom: -382.61px;
+  border-radius: var(--br-141xl);
+  background: linear-gradient(180deg, #ff0090, rgba(9, 151, 217, 0.97));
+  transform: rotate(-35.5deg);
+  transform-origin: 0 0;
+}
+.most-recommended-ngos {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 124.5%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.most-recommended-ngos-wrapper {
+  width: 996px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-27xl) 0 var(--padding-28xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blank-line {
+  margin: 0;
+}
+.sort-by {
+  font-size: 36px;
+}
+.recommended,
+.sort-by {
+  white-space: pre-wrap;
+}
+.sort-by-recommended-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 124.5%;
+  display: inline-block;
+  width: 100%;
+  min-height: 77px;
+  height: 100%;
+  z-index: 1;
+}
+.sort-dropdown-icon {
+  position: absolute;
+  top: 57px;
+  left: 601px;
+  width: 12px;
+  height: 6px;
+  z-index: 2;
+}
+.sort-dropdown,
+.sort-separator {
+  position: absolute;
+  top: 0;
+  left: 73px;
+  width: 1003px;
+  height: 77px;
+}
+.sort-separator {
+  left: 0;
+  border-radius: 0 var(--br-13xl) 0 0;
+  background-color: var(--color-deeppink-100);
+  width: 100%;
+  height: 100%;
+}
+.frame-inner {
+  position: absolute;
+  top: 45px;
+  left: 898px;
+  width: 12px;
+  height: 6px;
+  z-index: 1;
+}
+.sort-separator-parent {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 1034px;
+  height: 100px;
+}
+.sort-options {
+  align-self: stretch;
+  height: 110px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  color: var(--white);
+}
+.frame-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 64px;
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(192, 189, 189, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--white);
+}
+.image-2-icon,
+.ngo-name-1,
+.our-work-aims {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.image-2-icon {
+  align-self: stretch;
+  height: 257.3px;
+  border-radius: var(--br-13xl) 0 var(--br-13xl) 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.ngo-name-1,
+.our-work-aims {
+  display: inline-block;
+}
+.ngo-name-1 {
+  width: 377.5px;
+  height: 34.5px;
+  flex-shrink: 0;
+}
+.our-work-aims {
+  flex: 1;
+  line-height: 30px;
+  font-weight: 500;
+}
+.ngo-name-1-parent,
+.our-work-aims-to-break-the-vic-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.our-work-aims-to-break-the-vic-wrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  min-height: 122px;
+  font-size: var(--font-size-lg);
+  color: var(--color2);
+  font-family: var(--font-poppins);
+}
+.ngo-name-1-parent {
+  flex-direction: column;
+  gap: var(--gap-2xl-6);
+}
+.blood-donation-ngo,
+.read-more1 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.read-more1 {
+  flex: 1;
+}
+.read-more-button {
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -14.4px;
+  left: -13.3px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-deeppink-100);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.n-g-o-category,
+.read-more {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.read-more {
+  width: 96.8px;
+  justify-content: flex-start;
+  position: relative;
+  color: var(--color1);
+}
+.n-g-o-category {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--color2);
+}
+.n-g-o-discription,
+.n-g-o-info,
+.ngo-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.n-g-o-discription {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xl-6);
+}
+.n-g-o-info,
+.ngo-1 {
+  box-sizing: border-box;
+}
+.n-g-o-info {
+  width: 442px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+}
+.ngo-1 {
+  flex: 1;
+  border-radius: var(--br-13xl);
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) var(--padding-15xl-4) var(--padding-10xs);
+  position: relative;
+  gap: var(--gap-6xl-8);
+  min-width: 300px;
+}
+.blood-donation-ngo1,
+.ngo-2,
+.read-more2 {
+  position: relative;
+  z-index: 1;
+}
+.ngo-2,
+.read-more2 {
+  flex: 1;
+}
+.ngo-2 {
+  border-radius: var(--br-13xl);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-15xl-4) var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-6xl-8);
+  min-width: 300px;
+  max-width: 100%;
+}
+.frame-main,
+.n-g-o-card-container,
+.ngo-2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.n-g-o-card-container {
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 81px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color1);
+  font-family: var(--font-inter);
+}
+.frame-main {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 70px;
+  max-width: calc(100% - 364px);
+}
+.div10 {
+  position: relative;
+  color: var(--st);
+  display: inline-block;
+  min-width: 14px;
+}
+.placeholder-stack {
+  margin: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--fuschia-100);
+  font-family: var(--font-roboto);
+}
+.placeholder-stack,
+.placeholder-stack1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div22 {
+  color: var(--nd);
+}
+.div22,
+.placeholder {
+  position: relative;
+  display: inline-block;
+  min-width: 14px;
+}
+.placeholder-icon {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.grid-item,
+.grid-item-placeholder,
+.placeholder-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.grid-item-placeholder {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4xs);
+}
+.grid-item {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-43xl) 0 var(--padding-40xl);
+}
+.blood-donation-ngo2 {
+  width: 142.4px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.grid-row,
+.ngo-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ngo-3 {
+  width: 461px;
+  border-radius: var(--br-13xl);
+  padding: 0 var(--padding-12xs) var(--padding-15xl-4) var(--padding-10xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-6xl-8);
+  max-width: 169%;
+  z-index: 1;
+  font-size: var(--font-size-xl);
+  color: var(--color1);
+  font-family: var(--font-inter);
+}
+.grid-row {
+  align-self: stretch;
+  gap: 118px;
+}
+.card-grid,
+.details {
+  display: flex;
+  box-sizing: border-box;
+}
+.card-grid {
+  width: 274px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2px;
+}
+.details {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 66px 0 var(--padding-94xl);
+  gap: 90px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--fuschia-100);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1050px) {
+  .frame-main {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .most-recommended-ngos {
+    font-size: 51px;
+    line-height: 64px;
+  }
+  .most-recommended-ngos-wrapper {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .n-g-o-card-container {
+    gap: 40px;
+  }
+  .frame-main {
+    max-width: 100%;
+  }
+  .card-grid {
+    display: none;
+  }
+  .details {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frame-section {
+    gap: var(--gap-lg);
+  }
+  .n-g-o-card-container {
+    gap: var(--gap-xl);
+  }
+  .frame-main {
+    gap: var(--gap-mid);
+  }
+  .details {
+    gap: var(--gap-26xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .most-recommended-ngos {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .sort-by-recommended-container {
+    font-size: var(--font-size-lg);
+    line-height: 36px;
+  }
+  .ngo-name-1 {
+    font-size: var(--font-size-base);
+  }
+  .n-g-o-category {
+    flex-wrap: wrap;
+  }
+  .n-g-o-discription {
+    gap: var(--gap-base);
+  }
+  .div10,
+  .div22,
+  .placeholder {
+    font-size: var(--font-size-lg);
+  }
+  .grid-item {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .grid-row {
+    gap: 59px;
+  }
+  .details {
+    gap: var(--gap-3xl);
+  }
+}
